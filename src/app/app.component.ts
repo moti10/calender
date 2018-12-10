@@ -6,5 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calender';
+  year = new Date().getFullYear();
+  month = [
+    'January',
+   'February',
+    'March',
+     'April ',
+      'May',
+      'June',
+     'July',
+     'August',
+     'September',
+     'October',
+    'November',
+    'December'];
+
+    getDefaultOffDays(year) {
+      console.log();
+
+    }
 }
